@@ -1,8 +1,9 @@
-import React, { useCallback } from 'react'
+import React, { useCallback, useState } from 'react'
 import { useParams } from 'react-router'
 import { getPost } from '../assets/API'
 
 const SinglePost = () => {
+
 
     const { id } = useParams()
     console.log(id);
